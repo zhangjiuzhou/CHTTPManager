@@ -1,0 +1,6 @@
+framework module CHTTPManager {
+  umbrella header "CHTTPManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

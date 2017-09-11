@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D32CDCACAAAAB79EB7C540879D96D3 /* CHTTPManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDDFA936C75470B2C02BFE92F31C246 /* CHTTPManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A1BF86F6EC121FB6EF20BC10BA43D2 /* Pods-CHTTPManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 607F3FE55B6384E955E6F5036937059A /* Pods-CHTTPManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7F10B6631263FFD99D422DC9C746C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		925D9AF204A185401C858D34A099A9B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9AC3A12390B59036693E84D7F8C4029B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D136313D3A037C4B516D8D182192738 /* CHTTPManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361365EF8CD97751D3E95BB9BB1C6BC4 /* CHTTPManager-dummy.m */; };
+		9FDE6EC207217957E7B4A45EAF47BE40 /* Pods-CHTTPManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C5EF725203704DB465004C5A06D10B /* Pods-CHTTPManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9214D31F03AA1B28C31949E102D4D35 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C873BFE91BFFD3075FA1D93D42BBCBFD /* ReplaceMe.m */; };
+		C6FE42ACA6C96BE1BE44D3CF0F677691 /* Pods-CHTTPManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2093FD9EFF55B6507241680FE24C22 /* Pods-CHTTPManager_Example-dummy.m */; };
+		CE2075741BD0D3C71B2976CE350F501E /* Pods-CHTTPManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D51681346951AC1C1D58F17ADAB97A /* Pods-CHTTPManager_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F87DC0146CBA503E5F0ECF33A04057D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F16BA6ED5EB90EB87768F52E51602EE;
+			remoteInfo = CHTTPManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0037C36E860097C85CCF84F404190F09 /* Pods-CHTTPManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHTTPManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0542D299D19712D9014557D8A29BDA45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0572936506FC8231B554E7821C448F9F /* Pods-CHTTPManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHTTPManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		14B20455D8F9793083024AD45DE74399 /* Pods-CHTTPManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHTTPManager_Example-resources.sh"; sourceTree = "<group>"; };
+		18940CCA01A33F0FA5031C30ED72A075 /* Pods_CHTTPManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHTTPManager_Example.framework; path = "Pods-CHTTPManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6376A5C1030466ADAD997F4DA6F0F5 /* Pods-CHTTPManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHTTPManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		2059DF2FDEE4627F88EFEC5B42779B30 /* Pods-CHTTPManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHTTPManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2A854AFBE3D36066651FA803387D1728 /* CHTTPManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTTPManager.xcconfig; sourceTree = "<group>"; };
+		361365EF8CD97751D3E95BB9BB1C6BC4 /* CHTTPManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTTPManager-dummy.m"; sourceTree = "<group>"; };
+		42E17ADE9AFFFC8D0F9188CFAC99A6C9 /* Pods-CHTTPManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHTTPManager_Example.modulemap"; sourceTree = "<group>"; };
+		5CB12D79F445B03B3FA04F7742AAD7DF /* Pods-CHTTPManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHTTPManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DDDFA936C75470B2C02BFE92F31C246 /* CHTTPManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTTPManager-umbrella.h"; sourceTree = "<group>"; };
+		607F3FE55B6384E955E6F5036937059A /* Pods-CHTTPManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHTTPManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		669A834042252B9CE26C01970D5AA5BE /* Pods-CHTTPManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHTTPManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		66CE103C1B75CC3DF1D200B02E38E81C /* Pods-CHTTPManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHTTPManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2D3648AB2658FD29E08F09F95CAFF7 /* Pods_CHTTPManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHTTPManager_Tests.framework; path = "Pods-CHTTPManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D51681346951AC1C1D58F17ADAB97A /* Pods-CHTTPManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHTTPManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		866536846C84F19CCF4046989F5690DE /* CHTTPManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHTTPManager.modulemap; sourceTree = "<group>"; };
+		87BC1F21168F4ADEC5C7D4FFED2A4052 /* Pods-CHTTPManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHTTPManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8900A59FFFAD550D013E3E27B7C94091 /* CHTTPManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTTPManager-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA2093FD9EFF55B6507241680FE24C22 /* Pods-CHTTPManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHTTPManager_Example-dummy.m"; sourceTree = "<group>"; };
+		B28A807E4A108232A25EADB210482767 /* Pods-CHTTPManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHTTPManager_Tests.modulemap"; sourceTree = "<group>"; };
+		B675554CFFA24AB58A0D6D71461BAFF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71CBB14787068ECF0170DF14D555318 /* Pods-CHTTPManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHTTPManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1D8FF38E4B4A55B38C703BCA5BAC5B9 /* CHTTPManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTTPManager.framework; path = CHTTPManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C873BFE91BFFD3075FA1D93D42BBCBFD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D6C5EF725203704DB465004C5A06D10B /* Pods-CHTTPManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHTTPManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD59D635EB6AADC282682C50148D4127 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE80EF625FF353B9A68B7BE4DC89475 /* Pods-CHTTPManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHTTPManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB3D7B79123789E973B6AD8FD7989312 /* Pods-CHTTPManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHTTPManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		039E63FEDD290C2308BC4666C6704EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC3A12390B59036693E84D7F8C4029B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89A96AAEDE8033421B23E4DDA3A1886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7F10B6631263FFD99D422DC9C746C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F4A272C82E06773DDF33B5D0088C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925D9AF204A185401C858D34A099A9B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A1EB7B66DB7371A6FA2F2BE3213AB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				866536846C84F19CCF4046989F5690DE /* CHTTPManager.modulemap */,
+				2A854AFBE3D36066651FA803387D1728 /* CHTTPManager.xcconfig */,
+				361365EF8CD97751D3E95BB9BB1C6BC4 /* CHTTPManager-dummy.m */,
+				8900A59FFFAD550D013E3E27B7C94091 /* CHTTPManager-prefix.pch */,
+				5DDDFA936C75470B2C02BFE92F31C246 /* CHTTPManager-umbrella.h */,
+				DD59D635EB6AADC282682C50148D4127 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHTTPManager";
+			sourceTree = "<group>";
+		};
+		4F00C5D569247E704E712C3B10CC0F7D /* Pods-CHTTPManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B675554CFFA24AB58A0D6D71461BAFF6 /* Info.plist */,
+				B28A807E4A108232A25EADB210482767 /* Pods-CHTTPManager_Tests.modulemap */,
+				87BC1F21168F4ADEC5C7D4FFED2A4052 /* Pods-CHTTPManager_Tests-acknowledgements.markdown */,
+				B71CBB14787068ECF0170DF14D555318 /* Pods-CHTTPManager_Tests-acknowledgements.plist */,
+				82D51681346951AC1C1D58F17ADAB97A /* Pods-CHTTPManager_Tests-dummy.m */,
+				2059DF2FDEE4627F88EFEC5B42779B30 /* Pods-CHTTPManager_Tests-frameworks.sh */,
+				1F6376A5C1030466ADAD997F4DA6F0F5 /* Pods-CHTTPManager_Tests-resources.sh */,
+				D6C5EF725203704DB465004C5A06D10B /* Pods-CHTTPManager_Tests-umbrella.h */,
+				66CE103C1B75CC3DF1D200B02E38E81C /* Pods-CHTTPManager_Tests.debug.xcconfig */,
+				669A834042252B9CE26C01970D5AA5BE /* Pods-CHTTPManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHTTPManager_Tests";
+			path = "Target Support Files/Pods-CHTTPManager_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8314B3FB88F4FE927B1B7610D069BE9A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABC987E5B52026D8EE75ED99FB940B21 /* Products */,
+				D31C2118D8BE3ABC5E6CE2A829A67723 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8314B3FB88F4FE927B1B7610D069BE9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C114623CB75E47B8AB057A23A9ED0C17 /* CHTTPManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7B70DD59E8C746908454E37B10D1596 /* Pods-CHTTPManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0542D299D19712D9014557D8A29BDA45 /* Info.plist */,
+				42E17ADE9AFFFC8D0F9188CFAC99A6C9 /* Pods-CHTTPManager_Example.modulemap */,
+				DFE80EF625FF353B9A68B7BE4DC89475 /* Pods-CHTTPManager_Example-acknowledgements.markdown */,
+				5CB12D79F445B03B3FA04F7742AAD7DF /* Pods-CHTTPManager_Example-acknowledgements.plist */,
+				AA2093FD9EFF55B6507241680FE24C22 /* Pods-CHTTPManager_Example-dummy.m */,
+				0572936506FC8231B554E7821C448F9F /* Pods-CHTTPManager_Example-frameworks.sh */,
+				14B20455D8F9793083024AD45DE74399 /* Pods-CHTTPManager_Example-resources.sh */,
+				607F3FE55B6384E955E6F5036937059A /* Pods-CHTTPManager_Example-umbrella.h */,
+				EB3D7B79123789E973B6AD8FD7989312 /* Pods-CHTTPManager_Example.debug.xcconfig */,
+				0037C36E860097C85CCF84F404190F09 /* Pods-CHTTPManager_Example.release.xcconfig */,
+			);
+			name = "Pods-CHTTPManager_Example";
+			path = "Target Support Files/Pods-CHTTPManager_Example";
+			sourceTree = "<group>";
+		};
+		ABC987E5B52026D8EE75ED99FB940B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D8FF38E4B4A55B38C703BCA5BAC5B9 /* CHTTPManager.framework */,
+				18940CCA01A33F0FA5031C30ED72A075 /* Pods_CHTTPManager_Example.framework */,
+				7C2D3648AB2658FD29E08F09F95CAFF7 /* Pods_CHTTPManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B105D26084518D0655441190C922871D /* CHTTPManager */ = {
+			isa = PBXGroup;
+			children = (
+				DED50F93435C12F314318699C91EC20F /* Classes */,
+			);
+			name = CHTTPManager;
+			path = CHTTPManager;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C114623CB75E47B8AB057A23A9ED0C17 /* CHTTPManager */ = {
+			isa = PBXGroup;
+			children = (
+				B105D26084518D0655441190C922871D /* CHTTPManager */,
+				43A1EB7B66DB7371A6FA2F2BE3213AB9 /* Support Files */,
+			);
+			name = CHTTPManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D31C2118D8BE3ABC5E6CE2A829A67723 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B70DD59E8C746908454E37B10D1596 /* Pods-CHTTPManager_Example */,
+				4F00C5D569247E704E712C3B10CC0F7D /* Pods-CHTTPManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DED50F93435C12F314318699C91EC20F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C873BFE91BFFD3075FA1D93D42BBCBFD /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02A796D1A72930203429223A786220A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A1BF86F6EC121FB6EF20BC10BA43D2 /* Pods-CHTTPManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB379B37A0BED47AA890F5C1C2EAD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D32CDCACAAAAB79EB7C540879D96D3 /* CHTTPManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED910CC5672CE11EA604DC0FE9D9B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDE6EC207217957E7B4A45EAF47BE40 /* Pods-CHTTPManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47AEF4664E3D86CC00F35E95EFC8C417 /* Pods-CHTTPManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F678C7A3A266494D92DDF6C1A3E9A5 /* Build configuration list for PBXNativeTarget "Pods-CHTTPManager_Tests" */;
+			buildPhases = (
+				0B3FDEBBA940C40F898EA0AD7F382D7F /* Sources */,
+				B89A96AAEDE8033421B23E4DDA3A1886 /* Frameworks */,
+				FED910CC5672CE11EA604DC0FE9D9B3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHTTPManager_Tests";
+			productName = "Pods-CHTTPManager_Tests";
+			productReference = 7C2D3648AB2658FD29E08F09F95CAFF7 /* Pods_CHTTPManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F16BA6ED5EB90EB87768F52E51602EE /* CHTTPManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463A81AF58C7E34F6CD38E7C9C0D5D45 /* Build configuration list for PBXNativeTarget "CHTTPManager" */;
+			buildPhases = (
+				BE465C81E4CF0863042EBFD7BE2CA3B9 /* Sources */,
+				039E63FEDD290C2308BC4666C6704EB8 /* Frameworks */,
+				29DB379B37A0BED47AA890F5C1C2EAD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTTPManager;
+			productName = CHTTPManager;
+			productReference = C1D8FF38E4B4A55B38C703BCA5BAC5B9 /* CHTTPManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7DBFA39FD3280BB05CF7A952458C72D /* Pods-CHTTPManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F09B78A11C820DF06C50499273261DB /* Build configuration list for PBXNativeTarget "Pods-CHTTPManager_Example" */;
+			buildPhases = (
+				E176359974F1F5FCE4484DBF812B1D9C /* Sources */,
+				D1F4A272C82E06773DDF33B5D0088C97 /* Frameworks */,
+				02A796D1A72930203429223A786220A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F5136F222723B73A6384615494F2B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHTTPManager_Example";
+			productName = "Pods-CHTTPManager_Example";
+			productReference = 18940CCA01A33F0FA5031C30ED72A075 /* Pods_CHTTPManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ABC987E5B52026D8EE75ED99FB940B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F16BA6ED5EB90EB87768F52E51602EE /* CHTTPManager */,
+				F7DBFA39FD3280BB05CF7A952458C72D /* Pods-CHTTPManager_Example */,
+				47AEF4664E3D86CC00F35E95EFC8C417 /* Pods-CHTTPManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3FDEBBA940C40F898EA0AD7F382D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2075741BD0D3C71B2976CE350F501E /* Pods-CHTTPManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE465C81E4CF0863042EBFD7BE2CA3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D136313D3A037C4B516D8D182192738 /* CHTTPManager-dummy.m in Sources */,
+				B9214D31F03AA1B28C31949E102D4D35 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E176359974F1F5FCE4484DBF812B1D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FE42ACA6C96BE1BE44D3CF0F677691 /* Pods-CHTTPManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F5136F222723B73A6384615494F2B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTTPManager;
+			target = 9F16BA6ED5EB90EB87768F52E51602EE /* CHTTPManager */;
+			targetProxy = 2F87DC0146CBA503E5F0ECF33A04057D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C4D9BA8191B072C11BC4B5B1AEDA262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669A834042252B9CE26C01970D5AA5BE /* Pods-CHTTPManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHTTPManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHTTPManager_Tests/Pods-CHTTPManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHTTPManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18AA49B3C8E317728C6F4872DFBD4683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3D7B79123789E973B6AD8FD7989312 /* Pods-CHTTPManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHTTPManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHTTPManager_Example/Pods-CHTTPManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHTTPManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24B843111EEC74FAE95DA7C836BF6477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A854AFBE3D36066651FA803387D1728 /* CHTTPManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHTTPManager/CHTTPManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTTPManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTTPManager/CHTTPManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CHTTPManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30DCFA460D3B9D1E860687B7D8C7A108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A854AFBE3D36066651FA803387D1728 /* CHTTPManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHTTPManager/CHTTPManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTTPManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTTPManager/CHTTPManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CHTTPManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D7921EDDDCE5E49D237D553EF814135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CE103C1B75CC3DF1D200B02E38E81C /* Pods-CHTTPManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHTTPManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHTTPManager_Tests/Pods-CHTTPManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHTTPManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDE55B942581FFB69CB521D08BE86BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0037C36E860097C85CCF84F404190F09 /* Pods-CHTTPManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHTTPManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHTTPManager_Example/Pods-CHTTPManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHTTPManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463A81AF58C7E34F6CD38E7C9C0D5D45 /* Build configuration list for PBXNativeTarget "CHTTPManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DCFA460D3B9D1E860687B7D8C7A108 /* Debug */,
+				24B843111EEC74FAE95DA7C836BF6477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F678C7A3A266494D92DDF6C1A3E9A5 /* Build configuration list for PBXNativeTarget "Pods-CHTTPManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7921EDDDCE5E49D237D553EF814135 /* Debug */,
+				0C4D9BA8191B072C11BC4B5B1AEDA262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F09B78A11C820DF06C50499273261DB /* Build configuration list for PBXNativeTarget "Pods-CHTTPManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AA49B3C8E317728C6F4872DFBD4683 /* Debug */,
+				7BDE55B942581FFB69CB521D08BE86BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

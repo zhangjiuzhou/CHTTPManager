@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHTTPManager_Example' do
+  pod 'CHTTPManager', :path => '../'
+
+  target 'CHTTPManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

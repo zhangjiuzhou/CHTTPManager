@@ -1,0 +1,16 @@
+PODS:
+  - CHTTPManager (0.1.0)
+
+DEPENDENCIES:
+  - CHTTPManager (from `../`)
+
+EXTERNAL SOURCES:
+  CHTTPManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHTTPManager: 4b19840032164b33dee0834bfb1732bfe58bbbde
+
+PODFILE CHECKSUM: 9d0704e4e25adb19d6dcb7731e87d953e8f70e17
+
+COCOAPODS: 1.2.1

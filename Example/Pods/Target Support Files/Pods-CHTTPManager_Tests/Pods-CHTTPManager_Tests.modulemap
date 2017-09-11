@@ -1,0 +1,6 @@
+framework module Pods_CHTTPManager_Tests {
+  umbrella header "Pods-CHTTPManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
