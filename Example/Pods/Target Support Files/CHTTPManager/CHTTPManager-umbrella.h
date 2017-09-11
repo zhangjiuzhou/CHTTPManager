@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CHTTPManager.h"
 
 FOUNDATION_EXPORT double CHTTPManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char CHTTPManagerVersionString[];

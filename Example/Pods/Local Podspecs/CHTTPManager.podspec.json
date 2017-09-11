@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CHTTPManager/Classes/**/*"
+  "source_files": "CHTTPManager/Classes/**/*",
+  "dependencies": {
+    "PromiseKit/Promise": [
+      "1.7.2"
+    ],
+    "AFNetworking": [
+      "3.1.0"
+    ]
+  }
 }

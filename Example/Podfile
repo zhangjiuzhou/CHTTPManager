@@ -1,11 +1,7 @@
+platform :ios, '8.0'
 use_frameworks!
+inhibit_all_warnings!
 
 target 'CHTTPManager_Example' do
   pod 'CHTTPManager', :path => '../'
-
-  target 'CHTTPManager_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

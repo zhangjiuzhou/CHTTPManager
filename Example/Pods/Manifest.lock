@@ -1,5 +1,23 @@
 PODS:
-  - CHTTPManager (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CHTTPManager (0.1.0):
+    - AFNetworking (= 3.1.0)
+    - PromiseKit/Promise (= 1.7.2)
+  - PromiseKit/Promise (1.7.2)
 
 DEPENDENCIES:
   - CHTTPManager (from `../`)
@@ -9,8 +27,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CHTTPManager: 4b19840032164b33dee0834bfb1732bfe58bbbde
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CHTTPManager: d20a120355b438c67c578c3266de1feb9a05c101
+  PromiseKit: 102844c7b5ccff53f693e0710365c445d8df3871
 
-PODFILE CHECKSUM: 9d0704e4e25adb19d6dcb7731e87d953e8f70e17
+PODFILE CHECKSUM: 98748cdc36a1cdf077a8777f0b0a85bb376d5b09
 
 COCOAPODS: 1.2.1
