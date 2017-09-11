@@ -6,23 +6,23 @@
 [![Platform](https://img.shields.io/cocoapods/p/CHTTPManager.svg?style=flat)](http://cocoapods.org/pods/CHTTPManager)
 
 ## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-CHTTPManager is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'CHTTPManager'
+```
+[CHTTPManager requestWithURL:@"http://www.mocky.io/v2/59b640850f00003e03712378"
+                      params:[CHTTPRequestParams new]
+ .setMethod(CHTTPMethodPost)
+ .setQuery(@{@"one": @"1", @"two": @"2"})
+ .setRequestBody(@{@"foo": @"bar", @"hello": @"world"})
+ .setRequestBodyType(CHTTPRequestBodyTypeJSON)
+ .setResponseBodyType(CHTTPResponseBodyTypeJSON)
+ ]
+.then(^(id response) {
+    NSLog(@"Response: %@", response);
+});`
 ```
 
 ## Author
 
-nbyh100@sina.com, jiuzhou.zhang@fengjr.com
+nbyh100@sina.com
 
 ## License
 
